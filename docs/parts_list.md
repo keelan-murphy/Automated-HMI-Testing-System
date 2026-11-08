@@ -1,1 +1,0 @@
-NUCLEO-L476RG - STM32 board
