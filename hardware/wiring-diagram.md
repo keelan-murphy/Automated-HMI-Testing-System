@@ -8,6 +8,15 @@ Infineon IRLZ44NPbF, TO-220 [3]. Writing facing you, legs down: pin 1 gate, pin 
 
 Source to GND. Drain to the solenoid lead that is not on 12 V+. Gate to the Nucleo pin. 12 V does not connect to the gate.
 
+# Nucleo
+
+NUCLEO-L476RG [4], Table 23.
+
+MOSFET 1 gate: CN9 pin D2 (PA10).
+MOSFET 2 gate: CN9 pin D4 (PB5).
+Both sources, and the 12 V negative: a GND pin on CN6.
+
+The board is powered from USB. The coil is powered from 12 V. D13 (PA5) stays the green LED.
 
 
 
@@ -29,4 +38,6 @@ Source to GND. Drain to the solenoid lead that is not on 12 V+. Gate to the Nucl
 [2] RS Components, "SD0630 12V linear solenoid, RS stock no. 905-9931." [Online]. Available: https://uk.rs-online.com/web/p/linear-solenoids/9059931
 
 [3] Infineon Technologies, "IRLZ44NPbF, 55 V single N-channel power MOSFET," datasheet, rev. 2.1, Aug. 2026. [Online]. Available: https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlz44npbf-datasheet-en.pdf
+
+[4] STMicroelectronics, "STM32 Nucleo-64 boards (MB1136) user manual," UM1724, Rev. 17, Table 23. [Online]. Available: https://www.st.com/resource/en/user_manual/dm00105823-stm32-nucleo-64-boards-mb1136-stmicroelectronics.pdf
 
